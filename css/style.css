@@ -26,11 +26,6 @@ a {
     text-decoration: none;
 }
 
-.row {
-    background-color: white;
-    margin: 5rem auto;
-}
-
 /* HEADER */
 header {
     background-color: #3161E0;
@@ -141,9 +136,14 @@ main .btns {
     background-color: #23272A;
 }
 
-/* SEC_1 UN LUOGO A...*/
-.row_1 img {
-    width: 58%;
+/* SECTIONS GENERAL */
+.row {
+    background-color: white;
+    margin: 5rem auto 20rem;
+}
+
+.row img {
+    width: 55%;
     display: inline-block;
     vertical-align: top;
 }
@@ -153,7 +153,6 @@ main .btns {
     display: block;
     width: 30%;
     color: black;
-    float: right;
 }
 
 .section-text h1 {
@@ -167,6 +166,23 @@ main .btns {
     font-size: 16px;
 }
 
-.row_1 {
-    margin-bottom: 10rem;
+/* SEC_1 UN LUOGO A...*/
+.row_1 .section-text {
+    float: right;
 }
+
+/* SEC_2 DOVE TROVARSI... */
+.row_2 {
+    background-color: #F6F6F6;
+}
+
+.row_2 .section-text {
+    float: left;
+}
+
+.row_2 img {
+    float: right;
+    margin-right: -1rem;
+}
+
+/* ADD UN DIV.CENTER ALLE SECTION */
