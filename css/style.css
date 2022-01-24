@@ -26,6 +26,11 @@ a {
     text-decoration: none;
 }
 
+.row {
+    background-color: white;
+    margin: 5rem auto;
+}
+
 /* HEADER */
 header {
     background-color: #3161E0;
@@ -134,4 +139,34 @@ main .btns {
 .btns a:last-child {
     color: white;
     background-color: #23272A;
+}
+
+/* SEC_1 UN LUOGO A...*/
+.row_1 img {
+    width: 58%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section-text {
+    margin-top: 1.5rem;
+    display: block;
+    width: 30%;
+    color: black;
+    float: right;
+}
+
+.section-text h1 {
+    font-size: 35px;
+    line-height: 1.4;
+    color: #24282D;
+}
+
+.section-text p {
+    margin-top: 1.5rem;
+    font-size: 16px;
+}
+
+.row_1 {
+    margin-bottom: 10rem;
 }
